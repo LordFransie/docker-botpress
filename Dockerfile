@@ -22,4 +22,4 @@ LABEL org.label-schema.schema-version="1.0" \
       docker.cmd.help="docker run --rm jtdoepke/botpress --help"
 LABEL org.label-schema.version="${botpress_version}"
 
-RUN npm install --unsafe-perm -g botpress@${botpress_version}
+RUN npm install --unsafe-perm -g botpress
